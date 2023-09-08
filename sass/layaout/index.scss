@@ -1,0 +1,99 @@
+main{
+    background: linear-gradient(black, #027fe9,#027fe9, black);
+    
+    p{
+        color: $color-fondo;
+        padding-top: 2rem;
+        text-align: center;
+        font-size: 5rem;
+        font-family:  'Bebas Neue', sans-serif;
+        font-weight: 900;
+        
+    }
+    h2{
+        text-align: center;
+        padding: 3rem;
+        font-size: 3rem;
+        font-family: 'Bebas Neue', sans-serif;
+        color: $color-titulo;
+    }
+}
+
+.servicios1 {
+    @include flex (row, wrap, space-around,center,10rem);
+    padding-top: 1rem;
+    padding-bottom: 10rem;
+    .boton-bypass{
+        height: 40rem;
+        width: 30rem;
+        background-image: url(https://i.ibb.co/QQcysxv/iso-republic-phone-office-laptop-free-stock-photo.jpg);
+        background-position: center center;
+        background-size:cover;
+        border-radius: 1rem;
+        filter: drop-shadow(0.1rem 0.1rem 0.1rem $color-negro);
+        @include flex (row, wrap, center,center,10rem);
+        button{
+            background-color: white;
+            border: none;
+            
+            width: 100%;
+            
+            a{
+                color: black;
+                text-decoration: none;
+                font-size: 2.5rem;
+                font-family:'Bebas Neue', sans-serif;
+                padding: 1rem;
+                
+                
+            }
+            :hover{
+                color: $color-fondo;
+            }
+        }
+      
+        
+       
+    }
+    .boton-update{
+        @extend .boton-bypass;
+        background-image: url(https://i.ibb.co/tZ8KLWn/pexels-szab-viktor-12704100.jpg);
+    }
+    .boton-carga{
+        @extend .boton-bypass;
+        background-image: url(https://i.ibb.co/WDCX6P2/bateria.webp);
+    }
+    .boton-modulo{
+        @extend .boton-bypass;
+        background-image: url(https://i.ibb.co/QdhnR7L/c-HJpdm-F0-ZS9sci9pb-WFn-ZXMvd2-Vic2l0-ZS8y-MDIy-LTEy-L3-At-Mz-Uz-LWth-Ym9vb-XBp-Y3-Mt-NTUw-OS0w-MS1.jpg);
+    }
+    .boton-placa{
+        @extend .boton-bypass;
+        background-image: url(https://i.ibb.co/vxBV9b0/cz-Nmcy1wcml2-YXRl-L3-Jhd3-Bpe-GVs-X2lt-YWdlcy93-ZWJza-XRl-X2-Nvbn-Rlbn-Qvb-HIv-Zmw0-OTc4-Nzk4-ODUy.jpg);
+    }
+    .boton-flasheo{
+        @extend .boton-bypass;
+        background-image: url(https://i.ibb.co/r2v5VHZ/programas-de-pc-para-flashear-dispositivos-1280x720.jpg);
+    } 
+}
+
+.contacto{
+    h2{
+        padding-bottom: 1rem;
+    }
+    .redes{
+        @include flex(row,no-wrap,center,center,0rem);
+        a{
+            margin-left: 1rem;
+            margin-right: 1rem;
+            padding-bottom: 3rem;
+            
+            img{    
+                filter: drop-shadow(0.1rem 0.1rem 0.1rem white);
+                width: 5rem;
+                height: 5rem;
+            }
+        }
+    }
+}
+

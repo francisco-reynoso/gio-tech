@@ -1,0 +1,9 @@
+header{
+    background-color: $color-negro;
+    .encabezado{
+        @include flex (row, no-wrap, center,center,0rem);
+        img{
+            height: 25rem;
+        }
+    }
+}

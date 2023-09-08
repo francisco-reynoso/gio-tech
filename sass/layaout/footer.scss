@@ -1,0 +1,15 @@
+footer{
+    @include flex(column, no-wrap,center,center,0rem);
+    background-color: black;
+    h2{
+        color: $color-fondo;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 5rem;
+        
+    }
+    .subtitulo{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 1.5rem;
+        color:$color-titulo;
+    }
+}

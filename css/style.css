@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  background-color: black;
+}
+header .encabezado {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0rem;
+}
+header .encabezado img {
+  height: 25rem;
+}
+
+.paginas .tarea {
+  color: black;
+  font-size: 5rem;
+}
+.paginas .info {
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+}
+.paginas .info img {
+  height: 30rem;
+  object-fit: cover;
+  border-radius: 1rem;
+  filter: drop-shadow(0.1rem 0.1rem 0.1rem black);
+}
+.paginas .info .texto {
+  color: black;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 100;
+}
+
+.boton {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0rem;
+}
+.boton button {
+  background-color: black;
+  font-size: 2.5rem;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+.boton button a {
+  text-decoration: none;
+  color: #F6F1F1;
+  font-family: "Bebas Neue";
+}
+.boton :hover {
+  transform: scale(0.9);
+}
+
+main {
+  background: linear-gradient(black, #027fe9, #027fe9, black);
+}
+main p {
+  color: #027fe9;
+  padding-top: 2rem;
+  text-align: center;
+  font-size: 5rem;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 900;
+}
+main h2 {
+  text-align: center;
+  padding: 3rem;
+  font-size: 3rem;
+  font-family: "Bebas Neue", sans-serif;
+  color: #F6F1F1;
+}
+
+.servicios1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10rem;
+  padding-top: 1rem;
+  padding-bottom: 10rem;
+}
+.servicios1 .boton-bypass, .servicios1 .boton-flasheo, .servicios1 .boton-placa, .servicios1 .boton-modulo, .servicios1 .boton-carga, .servicios1 .boton-update {
+  height: 40rem;
+  width: 30rem;
+  background-image: url(https://i.ibb.co/QQcysxv/iso-republic-phone-office-laptop-free-stock-photo.jpg);
+  background-position: center center;
+  background-size: cover;
+  border-radius: 1rem;
+  filter: drop-shadow(0.1rem 0.1rem 0.1rem black);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+}
+.servicios1 .boton-bypass button, .servicios1 .boton-flasheo button, .servicios1 .boton-placa button, .servicios1 .boton-modulo button, .servicios1 .boton-carga button, .servicios1 .boton-update button {
+  background-color: white;
+  border: none;
+  width: 100%;
+}
+.servicios1 .boton-bypass button a, .servicios1 .boton-flasheo button a, .servicios1 .boton-placa button a, .servicios1 .boton-modulo button a, .servicios1 .boton-carga button a, .servicios1 .boton-update button a {
+  color: black;
+  text-decoration: none;
+  font-size: 2.5rem;
+  font-family: "Bebas Neue", sans-serif;
+  padding: 1rem;
+}
+.servicios1 .boton-bypass button :hover, .servicios1 .boton-flasheo button :hover, .servicios1 .boton-placa button :hover, .servicios1 .boton-modulo button :hover, .servicios1 .boton-carga button :hover, .servicios1 .boton-update button :hover {
+  color: #027fe9;
+}
+.servicios1 .boton-update {
+  background-image: url(https://i.ibb.co/tZ8KLWn/pexels-szab-viktor-12704100.jpg);
+}
+.servicios1 .boton-carga {
+  background-image: url(https://i.ibb.co/WDCX6P2/bateria.webp);
+}
+.servicios1 .boton-modulo {
+  background-image: url(https://i.ibb.co/QdhnR7L/c-HJpdm-F0-ZS9sci9pb-WFn-ZXMvd2-Vic2l0-ZS8y-MDIy-LTEy-L3-At-Mz-Uz-LWth-Ym9vb-XBp-Y3-Mt-NTUw-OS0w-MS1.jpg);
+}
+.servicios1 .boton-placa {
+  background-image: url(https://i.ibb.co/vxBV9b0/cz-Nmcy1wcml2-YXRl-L3-Jhd3-Bpe-GVs-X2lt-YWdlcy93-ZWJza-XRl-X2-Nvbn-Rlbn-Qvb-HIv-Zmw0-OTc4-Nzk4-ODUy.jpg);
+}
+.servicios1 .boton-flasheo {
+  background-image: url(https://i.ibb.co/r2v5VHZ/programas-de-pc-para-flashear-dispositivos-1280x720.jpg);
+}
+
+.contacto h2 {
+  padding-bottom: 1rem;
+}
+.contacto .redes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0rem;
+}
+.contacto .redes a {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-bottom: 3rem;
+}
+.contacto .redes a img {
+  filter: drop-shadow(0.1rem 0.1rem 0.1rem white);
+  width: 5rem;
+  height: 5rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: no-wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0rem;
+  background-color: black;
+}
+footer h2 {
+  color: #027fe9;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 5rem;
+}
+footer .subtitulo {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.5rem;
+  color: #F6F1F1;
+}
+
+/*# sourceMappingURL=style.css.map */
